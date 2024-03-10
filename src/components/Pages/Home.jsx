@@ -18,6 +18,7 @@ function Home() {
             <Button type='button' variant='secondary' onClick={() => navigate("/review")}>
                 Review
             </Button>
+            
         </div>
         <div className="about-link">
           <Link to="/about">

@@ -27,9 +27,11 @@ function Review() {
   return (
     <>
         <ReviewForm handleAdd={AddReview} />
-            <div className="container">
-                <ReviewStats reviews={review} /> 
-                <ReviewList reviews={review} deleteReview={deleteReview} />
+          
+            <div className="about-link">
+                <Link to="/AllReviews">
+                    <FaHouseDamage size={40} />
+                </Link>
             </div>
 
             <div className="about-link">
@@ -38,6 +40,7 @@ function Review() {
                 </Link>
             </div>
     </>
+    
   )
 }
 

@@ -23,6 +23,17 @@ ul {
   padding: 0 20px;
 }
 
+
+.allreviewsBTN{
+  margin-left: 240px; 
+
+}
+
+.allreviewCard{
+  margin: 100px;
+  margin-top: 0px;
+}
+
 header {
   height: 70px;
   width: auto;
@@ -234,5 +245,20 @@ input:focus {
 
   .input-group input {
     width: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .reviewss {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    align-items: start;
+  }
+
+  .reviewss > *{
+    width: 300px;
+    max-height: 150px;
+    margin: 10px;
   }
 }

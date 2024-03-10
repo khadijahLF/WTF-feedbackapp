@@ -12,7 +12,22 @@ const reviewData = [
     {
       id: 3,
       rating: 7,
-      text: 'This is another rating, in the review data file.'
+      text: 'This is another rating, in the review data file. I like it alot'
+    },
+    {
+      id: 4,
+      rating: 6,
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit'
+    },
+    {
+      id: 5,
+      rating: 5,
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit'
+    },
+    {
+      id: 6,
+      rating: 9,
+      text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit'
     }
   ]
 
